@@ -1,5 +1,4 @@
-// script.js
-let balance = 1000; // Default balance
+let balance = 1000; 
 const correctPin = "1234";
 
 const screens = {
@@ -17,7 +16,6 @@ function showScreen(screen) {
   screens[screen].classList.remove("hidden");
 }
 
-// Initial setup
 document.getElementById("insert-card-btn").addEventListener("click", () => {
   showScreen("pin");
 });
